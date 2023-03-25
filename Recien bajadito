@@ -1,0 +1,31 @@
+print('aloha')
+import math #look all math wherever on internet
+math.pi**2
+math.sqrt(9)
+
+def print_lyrics():
+    print('Hay sola')
+    print('No hay que decirle nah serena tranquila si quieren')  
+print_lyrics()
+
+def repeat_lyrics():
+    print_lyrics()
+    print_lyrics()
+
+def print_twice(x):
+    print(x)
+    print(x)
+
+print_twice(repeat_lyrics())
+
+def statements_local(part1, part2):
+    mix = part1 + part2
+    print_twice(mix)
+    
+statements_#local(s1+s2)
+
+#can be "None" if we print a statement,that are a function (result = repeat_lyrics() / Just ejecut the statement doesn't work neither)
+    
+    
+    
+    
